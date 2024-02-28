@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  border: 0;
+}
+html {
+  scroll-behavior: auto !important;
+}
+body {
+  background-color: #000;
+  font-family: "Playfair Display", serif;
+}
+nav {
+  z-index: 1;
+}
+.navbar-brand {
+  width: 160px;
+}
+.navbar-brand img {
+  width: 20%;
+  height: auto;
+}
+.accordion-button {
+  width: 80%;
+  height: 2.5em;
+}
+.card img {
+  height: 11em;
+}
+
+#outstanding .card img {
+  transition: transform 0.3s ease-in-out;
+}
+
+#outstanding .card:hover img {
+  transform: scale(1.1);
+}
+
+.card-body {
+  max-height: 120px;  
+  overflow: hidden;
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;  
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.mb-4 {
+  color: #fff;
+  line-height: 2;
+  text-align: center;
+  font-size: 25px; 
+}
+
+
+  form {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color:  rgb(43, 177, 240);
+  color: #fff
+}
+
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
