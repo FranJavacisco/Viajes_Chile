@@ -2,56 +2,64 @@
   margin: 0;
   border: 0;
 }
+
 html {
   scroll-behavior: auto !important;
 }
+
 body {
   background-color: #000;
   font-family: "Playfair Display", serif;
 }
+
 nav {
   z-index: 1;
 }
+
 .navbar-brand {
   width: 160px;
 }
+
 .navbar-brand img {
   width: 20%;
   height: auto;
 }
 
 .navbar-nav .nav-item:hover {
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .navbar-brand:hover {
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .accordion-button {
   width: 80%;
   height: 2.5em;
 }
+
 .card img {
   height: 11em;
 }
 
 #outstanding .card img {
   transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.911);
 }
 
 #outstanding .card:hover img {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   transform: scale(1.1);
 }
 
 .card-body {
-  max-height: 300px;  
+  max-height: 300px;
   overflow: hidden;
 }
 
 .card-text {
   display: -webkit-box;
-  -webkit-line-clamp: 5;  
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 }
@@ -60,17 +68,17 @@ nav {
   color: #fff;
   line-height: 2;
   text-align: center;
-  font-size: 25px; 
+  font-size: 25px;
 }
 
 
-  form {
-    color: #fff;
-    margin-bottom: 20px;
+form {
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 .btn-primary {
-  background-color:  rgb(43, 177, 240);
+  background-color: rgb(43, 177, 240);
   color: #fff
 }
 
