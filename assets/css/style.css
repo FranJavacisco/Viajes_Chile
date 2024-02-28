@@ -45,13 +45,13 @@ nav {
 }
 
 .card-body {
-  max-height: 120px;  
+  max-height: 300px;  
   overflow: hidden;
 }
 
 .card-text {
   display: -webkit-box;
-  -webkit-line-clamp: 3;  
+  -webkit-line-clamp: 5;  
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 }
