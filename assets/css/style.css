@@ -19,6 +19,15 @@ nav {
   width: 20%;
   height: auto;
 }
+
+.navbar-nav .nav-item:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+
+.navbar-brand:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+}
+
 .accordion-button {
   width: 80%;
   height: 2.5em;
@@ -64,7 +73,6 @@ nav {
   background-color:  rgb(43, 177, 240);
   color: #fff
 }
-
 
 footer a {
   text-decoration: none;
