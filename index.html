@@ -6,11 +6,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="Author" content="Francisco Lopez">
-
   <link rel="shortcut icon" href="assets/img/viajes.svg" type="image/x-icon" />
-
   <meta name="keywords" content="Viajes Chile, Norte de Chile, Sur de Chile" />
 
   <!-- Apertura  Bootstrap CSS -->
@@ -103,7 +101,8 @@
     </div>
     <div>
       <div class="row">
-        <div class="col-12 col-sm-4 col-md-4 my-3 container accordion" id="accordionPanelsStayOpenExample">
+        <!-- Corregido el id duplicado y el uso incorrecto de la clase "container" -->
+        <div class="col-12 col-sm-4 col-md-4 my-3">
           <div class="border-0 accordion-item">
             <div class="bg-info accordion-header" id="panelsStayOpen-headingOne">
               <button class="accordion-button bg-info ms-5" type="button" data-bs-toggle="collapse"
@@ -114,8 +113,8 @@
               </button>
             </div>
 
-            <div class="card-body bg-black text-white text-start ps-0" id="panelsStayOpen-collapseOne"
-              class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="card-body bg-black text-white text-start ps-0 collapse show"
+              id="panelsStayOpen-collapseOne">
               <p class="card-text bg-black accordion-body pt-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -130,10 +129,11 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-4 col-md-4 my-3 container accordion" id="accordionPanelsStayOpenExample">
+
+        <div class="col-12 col-sm-4 col-md-4 my-3">
           <div class="border-0 accordion-item">
-            <div class="card-body text-white text-start bg-black pt-0 ps-0 pb-0" id="panelsStayThree-collapseThree"
-              class="accordion-collapse collapse show" aria-labelledby="panelsStayThree-headingThree">
+            <div class="card-body text-white text-start bg-black pt-0 ps-0 pb-0"
+              id="panelsStayThree-collapseThree">
               <p class="card-text bg-black accordion-body pt-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -158,7 +158,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-4 col-md-4 my-3 container accordion" id="accordionPanelsStayOpenExample">
+        <div class="col-12 col-sm-4 col-md-4 my-3">
           <div class="border-0 accordion-item">
             <div class="bg-info accordion-header" id="panelsStayOpen-headingOne">
               <button class="accordion-button bg-info ms-5" type="button" data-bs-toggle="collapse"
@@ -169,8 +169,8 @@
               </button>
             </div>
 
-            <div class="card-body bg-black text-white text-start ps-0" id="panelsStayTwo-collapseTwo"
-              class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="card-body bg-black text-white text-start ps-0 collapse show"
+              id="panelsStayTwo-collapseTwo">
               <p class="card-text bg-black accordion-body pt-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.
