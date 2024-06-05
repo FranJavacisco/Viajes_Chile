@@ -1,6 +1,7 @@
 ![Captura de pantalla 2024-06-05 102239](https://github.com/FranJavacisco/Viajes_Chile/assets/134477809/0390b085-224d-4020-b4ed-c9fd884d19af)
 
 # Viajes Chile
+https://franjavacisco.github.io/Viajes_Chile/
 
 ## Descripción del Proyecto
 La agencia Viajes Chile requiere la creación de una landing page con un diseño atractivo e innovador. Esta prueba, que se desarrollará de manera individual, utiliza los conocimientos adquiridos en HTML, CSS, Bootstrap, JavaScript y GitHub. La estructura de la página incluye varias secciones clave como una barra de navegación fija, un carousel de imágenes, una sección de presentación, una sección de destacados, un formulario de contacto y un footer con links a redes sociales.
